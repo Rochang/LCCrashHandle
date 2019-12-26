@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LCCrashHandle_Example' do
+  pod 'LCCrashHandle', :path => '../'
+
+  target 'LCCrashHandle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
