@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LCCrashHandle'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LCCrashHandle.'
+  s.version          = '1.0.0'
+  s.summary          = '利用runtime 交换系统的方法，降低APP崩溃率。'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,11 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '利用runtime 交换系统的方法, 封装NSArray, NSDictionary分类, 拦截unrecognized selector sent to instance崩溃，降低APP崩溃率。'
 
-  s.homepage         = 'https://github.com/Rochang/LCCrashHandle'
+  s.homepage         = 'https://github.com/Rochang/LCCrashHandle.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rochang' => '625304864@qq.com' }
