@@ -222,20 +222,20 @@
 #pragma mark - NSMutableString
 // -[__NSCFString replaceCharactersInRange:withString:]
 - (void)NSMutableString_Test_ReplaceCharactersInRange {
-    NSMutableString *strM = [NSMutableString stringWithFormat:@"chenfanfang"];
+    NSMutableString *strM = [NSMutableString stringWithFormat:@"ffaiwefaefa"];
     NSRange range = NSMakeRange(0, 1000);
     [strM replaceCharactersInRange:range withString:@"--"];
 }
 
 // -[__NSCFString insertString:atIndex:]
 - (void)NSMutableString_Test_InsertStringAtIndex{
-    NSMutableString *strM = [NSMutableString stringWithFormat:@"chenfanfang"];
+    NSMutableString *strM = [NSMutableString stringWithFormat:@"ffaiwefaefa"];
     [strM insertString:@"cool" atIndex:1000];
 }
 
 // -[__NSCFString deleteCharactersInRange:]
 - (void)NSMutableString_TestDeleteCharactersInRange{
-    NSMutableString *strM = [NSMutableString stringWithFormat:@"chenfanfang"];
+    NSMutableString *strM = [NSMutableString stringWithFormat:@"ffaiwefaefa"];
     NSRange range = NSMakeRange(0, 1000);
     [strM deleteCharactersInRange:range];
 }
