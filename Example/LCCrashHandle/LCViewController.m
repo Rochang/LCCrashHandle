@@ -24,9 +24,6 @@
 
 - (void)testCrashHandleCompoment {
     
-    // unrecognized selector sent to instance 0x7ff7aac061d0
-    [self performSelector:@selector(adc)];
-    
     /**
      类方法 的 拦截失败,测试发现
      - (id)forwardingTargetForSelector:(SEL)aSelector;
@@ -34,6 +31,9 @@
      - (void)forwardInvocation:(NSInvocation *)anInvocation;
      */
     // // [LCViewController testClassMethod];
+    
+    // unrecognized selector sent to instance 0x7ff7aac061d0
+    [self performSelector:@selector(adc)];
     
     [self NSArray_Test_Init];
     [self NSArray_Test_ObjectAtIndex];
