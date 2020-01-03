@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E36A2AB63E7F24F85C9623C1BD8510 /* NSMutableArray+LCCrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 736F6891ED0705F824C7BE573CC47522 /* NSMutableArray+LCCrashHandle.m */; };
+		039BAF672EA549278AD6D03BB55CCFBF /* NSObject+LCSelectorCrashHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 118C837F0A3714455E5D27261078B728 /* NSObject+LCSelectorCrashHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F44447B57506815128825F4322A4BD /* NSObject+LCSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6523FC1B9B87562BF779624C5E3AEA51 /* NSObject+LCSwizzle.m */; };
+		0740F0F66F05D1E39976FFED44EAB670 /* NSMutableString+LCCrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 514A0F0379E3E043261ECE92BE597D17 /* NSMutableString+LCCrashHandle.m */; };
+		09D9E5ABD90A6FF8C6F913C7DA6E3025 /* NSObject+LCSelectorCrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8888E6F13AC73DD0F4C7E7D35A27A /* NSObject+LCSelectorCrashHandle.m */; };
+		122D3AF431E453CB82BAF8E192A74FC5 /* NSMutableString+LCCrashHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFE88A4E445FA1D45D983432BC31CDF /* NSMutableString+LCCrashHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A24872F2604D28ABE27945CB120D0E7 /* NSAttributedString+LCCrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB1E3587BC976007584C50AE012C1DA /* NSAttributedString+LCCrashHandle.m */; };
+		1B9DAA15FC1A4DDEDA04E1F088EFA4D5 /* NSAttributedString+LCCrashHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B6B5224E5F516FBDE4E856EAC4FFA0 /* NSAttributedString+LCCrashHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35C94857BEEBDFB24C3BEA08081B1757 /* NSArray+LCCrashHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8F105E79C5A6F8FF58F2A4A14EE70C /* NSArray+LCCrashHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37586DF66BD4E35DFA2E5365403D1FE4 /* LCCrashHandleLog.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD0171D92F33A3B10DB667D599CC762 /* LCCrashHandleLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D138B7C6467B07DBFE853E43FE5244B /* NSMutableArray+LCCrashHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F6F24A5B0ADC52B246D3412BA13435 /* NSMutableArray+LCCrashHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6091F459E56F6540A868F29754730043 /* NSMutableDictionary+LCCrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE75696B4698A5466F3B85BA24D1F22E /* NSMutableDictionary+LCCrashHandle.m */; };
+		674E92F435B4C6FC24D39427D5FED094 /* Pods-LCCrashHandle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 028B0A3182DEEFD4DDAD6C10DECE8CF2 /* Pods-LCCrashHandle_Example-dummy.m */; };
+		6840ECF69D8CF5DF176CC1D2A338E7EF /* Pods-LCCrashHandle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D3DE8916104F2A30EE190AD17CB15 /* Pods-LCCrashHandle_Tests-dummy.m */; };
+		6FAD63DA0637BDD79F333E7D86682D02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77218E1F37EA602154C0D95A6A9EFB80 /* NSString+LCCrashHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = CF466E077D945B737EBE35E56DA1EF51 /* NSString+LCCrashHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83A1115D87A3001EC7BE695ED5E3E80F /* LCCrashHandleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA5FC0FA11A57028EFD830FF87886DA /* LCCrashHandleManager.m */; };
+		86D1B2CA9749CEC5C04705BB0EE3F798 /* NSObject+LCSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 73869D376FAB321AE2EF3349E2948E74 /* NSObject+LCSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892994B620D1BE86CE32F4C884E8C64A /* LCCrashHandle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1945094E7B6300E8134F7FC1A82A379E /* LCCrashHandle-dummy.m */; };
+		914E2962F6891AF65D1BE7797275C21E /* LCCrashHandleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FACA507E53C4DEDBDCA2FAC1C5502F2 /* LCCrashHandleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		943A56EC026C304C75CD9B6EA1E60BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A1F3E68AB788B378A345FBA68232167E /* NSArray+LCCrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787CBC159D28020A263FAEBF1B9A81C /* NSArray+LCCrashHandle.m */; };
+		A39E2664A1136D9FC5EE241E12C2E275 /* NSDictionary+LCCrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D55BAA2539D05D84768A691B2D23E6 /* NSDictionary+LCCrashHandle.m */; };
+		B51B94229165977686CD1E0552970B38 /* LCCrashHandleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 38224F1A962665AB35F2871179983EA1 /* LCCrashHandleLog.m */; };
+		B748DD06A25559BB26E8C34FB0F29166 /* Pods-LCCrashHandle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 187DE44EE5A12487E841B89AC567F09D /* Pods-LCCrashHandle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9B9574DA893F1909D8764C6191AC90C /* LCCrashHandle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F997B69BCE4B864827B3C6D570CECC3 /* LCCrashHandle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4D419A19E6910AB8F6275D57E681300 /* Pods-LCCrashHandle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D98EAA2EB3CC5ABAE27CAD7B8F9E77BE /* Pods-LCCrashHandle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6D4390292A7BD083888EEB02FD29F3A /* NSMutableAttributedString+LCCrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFC4F776C7C4BF94770650748C4B0EE /* NSMutableAttributedString+LCCrashHandle.m */; };
+		DBECFF8A1CA207421C92150E2BD6D698 /* NSMutableDictionary+LCCrashHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = F21100EE827752B6A5EEA76A1EA3CED7 /* NSMutableDictionary+LCCrashHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3D23E41453F21932466D6D403338D36 /* NSMutableAttributedString+LCCrashHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AAD35FF7C3D96164578B634CE742F8 /* NSMutableAttributedString+LCCrashHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E78E011F19E1CB80566D59D421F2CB7D /* NSString+LCCrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4C69C9E319A96F77AA1D43633666B6 /* NSString+LCCrashHandle.m */; };
+		EBFD24AE03CD4F034EF7B4A6D51CE2DB /* NSDictionary+LCCrashHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = D882F0B0B68D948C92439B93DB33D178 /* NSDictionary+LCCrashHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB454066FB8266E4715525462DF27ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CC9B0A9C58D9A429CD9531FAEF96800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450C43BF7ABD2DC1D43470C592A03932;
+			remoteInfo = "Pods-LCCrashHandle_Example";
+		};
+		9E969BC12F381F1FF00C3FE979D00871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F42EB290587436A6F99EEDCF49A9E1E;
+			remoteInfo = LCCrashHandle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DB62AEF833A9FC5A67923C20860222 /* Pods-LCCrashHandle_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCrashHandle_Example-Info.plist"; sourceTree = "<group>"; };
+		028B0A3182DEEFD4DDAD6C10DECE8CF2 /* Pods-LCCrashHandle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCCrashHandle_Example-dummy.m"; sourceTree = "<group>"; };
+		0534A3A043983BFFA38379AF1F8C7A90 /* LCCrashHandle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCCrashHandle.xcconfig; sourceTree = "<group>"; };
+		0787CBC159D28020A263FAEBF1B9A81C /* NSArray+LCCrashHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LCCrashHandle.m"; path = "LCCrashHandle/Classes/NSArray+LCCrashHandle.m"; sourceTree = "<group>"; };
+		0B970A9C0FEE1DFFA860C70A86ACD8E8 /* LCCrashHandle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LCCrashHandle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		118C837F0A3714455E5D27261078B728 /* NSObject+LCSelectorCrashHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LCSelectorCrashHandle.h"; path = "LCCrashHandle/Classes/NSObject+LCSelectorCrashHandle.h"; sourceTree = "<group>"; };
+		11B33ED368DF22A637C00D0F7C2D8199 /* LCCrashHandle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCCrashHandle-prefix.pch"; sourceTree = "<group>"; };
+		129885C574B620E709836576F5D12EF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		13B5A9D863058ECC8AD080917BC21E58 /* LCCrashHandle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LCCrashHandle.framework; path = LCCrashHandle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187DE44EE5A12487E841B89AC567F09D /* Pods-LCCrashHandle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCCrashHandle_Example-umbrella.h"; sourceTree = "<group>"; };
+		18B6B5224E5F516FBDE4E856EAC4FFA0 /* NSAttributedString+LCCrashHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+LCCrashHandle.h"; path = "LCCrashHandle/Classes/NSAttributedString+LCCrashHandle.h"; sourceTree = "<group>"; };
+		1945094E7B6300E8134F7FC1A82A379E /* LCCrashHandle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCCrashHandle-dummy.m"; sourceTree = "<group>"; };
+		1F0D5EFC8F93B99A5368385F14001360 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		29DB5EDC98C8EB717B2FF9EDD1DF84A7 /* Pods-LCCrashHandle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCrashHandle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		31D55BAA2539D05D84768A691B2D23E6 /* NSDictionary+LCCrashHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LCCrashHandle.m"; path = "LCCrashHandle/Classes/NSDictionary+LCCrashHandle.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38224F1A962665AB35F2871179983EA1 /* LCCrashHandleLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCCrashHandleLog.m; path = LCCrashHandle/Classes/LCCrashHandleLog.m; sourceTree = "<group>"; };
+		3EAEB9BA295CBCF642D2111ED625F169 /* Pods-LCCrashHandle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCrashHandle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		421CE63A89BD850984119E269A0C50FA /* Pods-LCCrashHandle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCrashHandle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FACA507E53C4DEDBDCA2FAC1C5502F2 /* LCCrashHandleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCCrashHandleManager.h; path = LCCrashHandle/Classes/LCCrashHandleManager.h; sourceTree = "<group>"; };
+		501B11004C18631B1523EF12E7ABF099 /* Pods-LCCrashHandle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCCrashHandle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		514A0F0379E3E043261ECE92BE597D17 /* NSMutableString+LCCrashHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+LCCrashHandle.m"; path = "LCCrashHandle/Classes/NSMutableString+LCCrashHandle.m"; sourceTree = "<group>"; };
+		5B9D3DE8916104F2A30EE190AD17CB15 /* Pods-LCCrashHandle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCCrashHandle_Tests-dummy.m"; sourceTree = "<group>"; };
+		5C4731EDF999BC5578CA21D056B06AAA /* Pods-LCCrashHandle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCCrashHandle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6523FC1B9B87562BF779624C5E3AEA51 /* NSObject+LCSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LCSwizzle.m"; path = "LCCrashHandle/Classes/NSObject+LCSwizzle.m"; sourceTree = "<group>"; };
+		66F9FE6A4BED07CB2B0E0ECD1417C848 /* LCCrashHandle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCCrashHandle.modulemap; sourceTree = "<group>"; };
+		6CA5FC0FA11A57028EFD830FF87886DA /* LCCrashHandleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCCrashHandleManager.m; path = LCCrashHandle/Classes/LCCrashHandleManager.m; sourceTree = "<group>"; };
+		6F997B69BCE4B864827B3C6D570CECC3 /* LCCrashHandle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCCrashHandle-umbrella.h"; sourceTree = "<group>"; };
+		736F6891ED0705F824C7BE573CC47522 /* NSMutableArray+LCCrashHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+LCCrashHandle.m"; path = "LCCrashHandle/Classes/NSMutableArray+LCCrashHandle.m"; sourceTree = "<group>"; };
+		73869D376FAB321AE2EF3349E2948E74 /* NSObject+LCSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LCSwizzle.h"; path = "LCCrashHandle/Classes/NSObject+LCSwizzle.h"; sourceTree = "<group>"; };
+		773EB37C98E1C41EDE7DD64396C922AC /* Pods-LCCrashHandle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCrashHandle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		855B24A2873FF805D19E57B5B966B66F /* Pods-LCCrashHandle_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCrashHandle_Tests-Info.plist"; sourceTree = "<group>"; };
+		87DFA352FBE99074CD090E0C78DF2AFD /* Pods_LCCrashHandle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCCrashHandle_Tests.framework; path = "Pods-LCCrashHandle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8976100BA8CFF943DF2C97B0C32AD424 /* Pods-LCCrashHandle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCCrashHandle_Tests.modulemap"; sourceTree = "<group>"; };
+		8E09D25D872DC8B85B25776334F18E26 /* Pods-LCCrashHandle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCrashHandle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A40C8EFB7145633B2829E1E916852AFA /* Pods-LCCrashHandle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCrashHandle_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ABB1E3587BC976007584C50AE012C1DA /* NSAttributedString+LCCrashHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+LCCrashHandle.m"; path = "LCCrashHandle/Classes/NSAttributedString+LCCrashHandle.m"; sourceTree = "<group>"; };
+		ABD0171D92F33A3B10DB667D599CC762 /* LCCrashHandleLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCCrashHandleLog.h; path = LCCrashHandle/Classes/LCCrashHandleLog.h; sourceTree = "<group>"; };
+		ABE8888E6F13AC73DD0F4C7E7D35A27A /* NSObject+LCSelectorCrashHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LCSelectorCrashHandle.m"; path = "LCCrashHandle/Classes/NSObject+LCSelectorCrashHandle.m"; sourceTree = "<group>"; };
+		B1A53ADEB80487258D08EB7D4CD90029 /* Pods_LCCrashHandle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCCrashHandle_Example.framework; path = "Pods-LCCrashHandle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F6F24A5B0ADC52B246D3412BA13435 /* NSMutableArray+LCCrashHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+LCCrashHandle.h"; path = "LCCrashHandle/Classes/NSMutableArray+LCCrashHandle.h"; sourceTree = "<group>"; };
+		C7AAD35FF7C3D96164578B634CE742F8 /* NSMutableAttributedString+LCCrashHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+LCCrashHandle.h"; path = "LCCrashHandle/Classes/NSMutableAttributedString+LCCrashHandle.h"; sourceTree = "<group>"; };
+		CAFC4F776C7C4BF94770650748C4B0EE /* NSMutableAttributedString+LCCrashHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+LCCrashHandle.m"; path = "LCCrashHandle/Classes/NSMutableAttributedString+LCCrashHandle.m"; sourceTree = "<group>"; };
+		CBFE88A4E445FA1D45D983432BC31CDF /* NSMutableString+LCCrashHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+LCCrashHandle.h"; path = "LCCrashHandle/Classes/NSMutableString+LCCrashHandle.h"; sourceTree = "<group>"; };
+		CD4C69C9E319A96F77AA1D43633666B6 /* NSString+LCCrashHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LCCrashHandle.m"; path = "LCCrashHandle/Classes/NSString+LCCrashHandle.m"; sourceTree = "<group>"; };
+		CE75696B4698A5466F3B85BA24D1F22E /* NSMutableDictionary+LCCrashHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+LCCrashHandle.m"; path = "LCCrashHandle/Classes/NSMutableDictionary+LCCrashHandle.m"; sourceTree = "<group>"; };
+		CF466E077D945B737EBE35E56DA1EF51 /* NSString+LCCrashHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LCCrashHandle.h"; path = "LCCrashHandle/Classes/NSString+LCCrashHandle.h"; sourceTree = "<group>"; };
+		D366C4C3B98076713422E974E870C5C7 /* Pods-LCCrashHandle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCCrashHandle_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D882F0B0B68D948C92439B93DB33D178 /* NSDictionary+LCCrashHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LCCrashHandle.h"; path = "LCCrashHandle/Classes/NSDictionary+LCCrashHandle.h"; sourceTree = "<group>"; };
+		D98EAA2EB3CC5ABAE27CAD7B8F9E77BE /* Pods-LCCrashHandle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCCrashHandle_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DCA95B1410C876E688274ECA35657823 /* LCCrashHandle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCCrashHandle-Info.plist"; sourceTree = "<group>"; };
+		E0C660C8F8EDACC6B77DC17101A182CC /* Pods-LCCrashHandle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCCrashHandle_Example.modulemap"; sourceTree = "<group>"; };
+		EE8F105E79C5A6F8FF58F2A4A14EE70C /* NSArray+LCCrashHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LCCrashHandle.h"; path = "LCCrashHandle/Classes/NSArray+LCCrashHandle.h"; sourceTree = "<group>"; };
+		F21100EE827752B6A5EEA76A1EA3CED7 /* NSMutableDictionary+LCCrashHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+LCCrashHandle.h"; path = "LCCrashHandle/Classes/NSMutableDictionary+LCCrashHandle.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088C5D2102E65F2B97B66B3B3E5A6A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943A56EC026C304C75CD9B6EA1E60BEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0E1C40C2D91199EB4AB918D79CD809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAD63DA0637BDD79F333E7D86682D02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F88B0D8E134E1256BB606D79F444A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB454066FB8266E4715525462DF27ECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3564AC0ED603A1E572AFE3E271EFF135 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4B51E5C505F465BAC9E42EE92C6984 /* Pods-LCCrashHandle_Example */,
+				FA13334CDE56C7DF2090096557A328DB /* Pods-LCCrashHandle_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		45B8063DE13C4B3A42F0ED3535FBDBAE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0B970A9C0FEE1DFFA860C70A86ACD8E8 /* LCCrashHandle.podspec */,
+				1F0D5EFC8F93B99A5368385F14001360 /* LICENSE */,
+				129885C574B620E709836576F5D12EF2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		487923BA82D1D242480B06ADE248708C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76A48F648547FF7524588F5685FD041F /* LCCrashHandle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4E590B612875FF915CE7051088271CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B5A9D863058ECC8AD080917BC21E58 /* LCCrashHandle.framework */,
+				B1A53ADEB80487258D08EB7D4CD90029 /* Pods_LCCrashHandle_Example.framework */,
+				87DFA352FBE99074CD090E0C78DF2AFD /* Pods_LCCrashHandle_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A48F648547FF7524588F5685FD041F /* LCCrashHandle */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0171D92F33A3B10DB667D599CC762 /* LCCrashHandleLog.h */,
+				38224F1A962665AB35F2871179983EA1 /* LCCrashHandleLog.m */,
+				4FACA507E53C4DEDBDCA2FAC1C5502F2 /* LCCrashHandleManager.h */,
+				6CA5FC0FA11A57028EFD830FF87886DA /* LCCrashHandleManager.m */,
+				EE8F105E79C5A6F8FF58F2A4A14EE70C /* NSArray+LCCrashHandle.h */,
+				0787CBC159D28020A263FAEBF1B9A81C /* NSArray+LCCrashHandle.m */,
+				18B6B5224E5F516FBDE4E856EAC4FFA0 /* NSAttributedString+LCCrashHandle.h */,
+				ABB1E3587BC976007584C50AE012C1DA /* NSAttributedString+LCCrashHandle.m */,
+				D882F0B0B68D948C92439B93DB33D178 /* NSDictionary+LCCrashHandle.h */,
+				31D55BAA2539D05D84768A691B2D23E6 /* NSDictionary+LCCrashHandle.m */,
+				C1F6F24A5B0ADC52B246D3412BA13435 /* NSMutableArray+LCCrashHandle.h */,
+				736F6891ED0705F824C7BE573CC47522 /* NSMutableArray+LCCrashHandle.m */,
+				C7AAD35FF7C3D96164578B634CE742F8 /* NSMutableAttributedString+LCCrashHandle.h */,
+				CAFC4F776C7C4BF94770650748C4B0EE /* NSMutableAttributedString+LCCrashHandle.m */,
+				F21100EE827752B6A5EEA76A1EA3CED7 /* NSMutableDictionary+LCCrashHandle.h */,
+				CE75696B4698A5466F3B85BA24D1F22E /* NSMutableDictionary+LCCrashHandle.m */,
+				CBFE88A4E445FA1D45D983432BC31CDF /* NSMutableString+LCCrashHandle.h */,
+				514A0F0379E3E043261ECE92BE597D17 /* NSMutableString+LCCrashHandle.m */,
+				118C837F0A3714455E5D27261078B728 /* NSObject+LCSelectorCrashHandle.h */,
+				ABE8888E6F13AC73DD0F4C7E7D35A27A /* NSObject+LCSelectorCrashHandle.m */,
+				73869D376FAB321AE2EF3349E2948E74 /* NSObject+LCSwizzle.h */,
+				6523FC1B9B87562BF779624C5E3AEA51 /* NSObject+LCSwizzle.m */,
+				CF466E077D945B737EBE35E56DA1EF51 /* NSString+LCCrashHandle.h */,
+				CD4C69C9E319A96F77AA1D43633666B6 /* NSString+LCCrashHandle.m */,
+				45B8063DE13C4B3A42F0ED3535FBDBAE /* Pod */,
+				C8CDA84FD04134727E11496C9BB667B3 /* Support Files */,
+			);
+			name = LCCrashHandle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C8CDA84FD04134727E11496C9BB667B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F9FE6A4BED07CB2B0E0ECD1417C848 /* LCCrashHandle.modulemap */,
+				0534A3A043983BFFA38379AF1F8C7A90 /* LCCrashHandle.xcconfig */,
+				1945094E7B6300E8134F7FC1A82A379E /* LCCrashHandle-dummy.m */,
+				DCA95B1410C876E688274ECA35657823 /* LCCrashHandle-Info.plist */,
+				11B33ED368DF22A637C00D0F7C2D8199 /* LCCrashHandle-prefix.pch */,
+				6F997B69BCE4B864827B3C6D570CECC3 /* LCCrashHandle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LCCrashHandle";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				487923BA82D1D242480B06ADE248708C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4E590B612875FF915CE7051088271CB4 /* Products */,
+				3564AC0ED603A1E572AFE3E271EFF135 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA4B51E5C505F465BAC9E42EE92C6984 /* Pods-LCCrashHandle_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E0C660C8F8EDACC6B77DC17101A182CC /* Pods-LCCrashHandle_Example.modulemap */,
+				5C4731EDF999BC5578CA21D056B06AAA /* Pods-LCCrashHandle_Example-acknowledgements.markdown */,
+				3EAEB9BA295CBCF642D2111ED625F169 /* Pods-LCCrashHandle_Example-acknowledgements.plist */,
+				028B0A3182DEEFD4DDAD6C10DECE8CF2 /* Pods-LCCrashHandle_Example-dummy.m */,
+				D366C4C3B98076713422E974E870C5C7 /* Pods-LCCrashHandle_Example-frameworks.sh */,
+				01DB62AEF833A9FC5A67923C20860222 /* Pods-LCCrashHandle_Example-Info.plist */,
+				187DE44EE5A12487E841B89AC567F09D /* Pods-LCCrashHandle_Example-umbrella.h */,
+				29DB5EDC98C8EB717B2FF9EDD1DF84A7 /* Pods-LCCrashHandle_Example.debug.xcconfig */,
+				A40C8EFB7145633B2829E1E916852AFA /* Pods-LCCrashHandle_Example.release.xcconfig */,
+			);
+			name = "Pods-LCCrashHandle_Example";
+			path = "Target Support Files/Pods-LCCrashHandle_Example";
+			sourceTree = "<group>";
+		};
+		FA13334CDE56C7DF2090096557A328DB /* Pods-LCCrashHandle_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8976100BA8CFF943DF2C97B0C32AD424 /* Pods-LCCrashHandle_Tests.modulemap */,
+				501B11004C18631B1523EF12E7ABF099 /* Pods-LCCrashHandle_Tests-acknowledgements.markdown */,
+				421CE63A89BD850984119E269A0C50FA /* Pods-LCCrashHandle_Tests-acknowledgements.plist */,
+				5B9D3DE8916104F2A30EE190AD17CB15 /* Pods-LCCrashHandle_Tests-dummy.m */,
+				855B24A2873FF805D19E57B5B966B66F /* Pods-LCCrashHandle_Tests-Info.plist */,
+				D98EAA2EB3CC5ABAE27CAD7B8F9E77BE /* Pods-LCCrashHandle_Tests-umbrella.h */,
+				8E09D25D872DC8B85B25776334F18E26 /* Pods-LCCrashHandle_Tests.debug.xcconfig */,
+				773EB37C98E1C41EDE7DD64396C922AC /* Pods-LCCrashHandle_Tests.release.xcconfig */,
+			);
+			name = "Pods-LCCrashHandle_Tests";
+			path = "Target Support Files/Pods-LCCrashHandle_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63D4329EA95D2A713E27AEC02EE64D18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D419A19E6910AB8F6275D57E681300 /* Pods-LCCrashHandle_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5E01A5356D15AF57B925367A6235A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B9574DA893F1909D8764C6191AC90C /* LCCrashHandle-umbrella.h in Headers */,
+				37586DF66BD4E35DFA2E5365403D1FE4 /* LCCrashHandleLog.h in Headers */,
+				914E2962F6891AF65D1BE7797275C21E /* LCCrashHandleManager.h in Headers */,
+				35C94857BEEBDFB24C3BEA08081B1757 /* NSArray+LCCrashHandle.h in Headers */,
+				1B9DAA15FC1A4DDEDA04E1F088EFA4D5 /* NSAttributedString+LCCrashHandle.h in Headers */,
+				EBFD24AE03CD4F034EF7B4A6D51CE2DB /* NSDictionary+LCCrashHandle.h in Headers */,
+				3D138B7C6467B07DBFE853E43FE5244B /* NSMutableArray+LCCrashHandle.h in Headers */,
+				E3D23E41453F21932466D6D403338D36 /* NSMutableAttributedString+LCCrashHandle.h in Headers */,
+				DBECFF8A1CA207421C92150E2BD6D698 /* NSMutableDictionary+LCCrashHandle.h in Headers */,
+				122D3AF431E453CB82BAF8E192A74FC5 /* NSMutableString+LCCrashHandle.h in Headers */,
+				039BAF672EA549278AD6D03BB55CCFBF /* NSObject+LCSelectorCrashHandle.h in Headers */,
+				86D1B2CA9749CEC5C04705BB0EE3F798 /* NSObject+LCSwizzle.h in Headers */,
+				77218E1F37EA602154C0D95A6A9EFB80 /* NSString+LCCrashHandle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F498B803DDA8D478ADE20E0B1194789F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B748DD06A25559BB26E8C34FB0F29166 /* Pods-LCCrashHandle_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		450C43BF7ABD2DC1D43470C592A03932 /* Pods-LCCrashHandle_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0346F32204C5EAC14C803C4E856216EE /* Build configuration list for PBXNativeTarget "Pods-LCCrashHandle_Example" */;
+			buildPhases = (
+				F498B803DDA8D478ADE20E0B1194789F /* Headers */,
+				A3820BBCB5187007FBDFBFC9B7C57A80 /* Sources */,
+				3D0E1C40C2D91199EB4AB918D79CD809 /* Frameworks */,
+				E33093638D562105259A02B43B8F27B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F336EF6E370211AC00BB079ECE90634 /* PBXTargetDependency */,
+			);
+			name = "Pods-LCCrashHandle_Example";
+			productName = "Pods-LCCrashHandle_Example";
+			productReference = B1A53ADEB80487258D08EB7D4CD90029 /* Pods_LCCrashHandle_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F42EB290587436A6F99EEDCF49A9E1E /* LCCrashHandle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05C3A35C485E6DC2B29AB1158ADF4E6 /* Build configuration list for PBXNativeTarget "LCCrashHandle" */;
+			buildPhases = (
+				9B5E01A5356D15AF57B925367A6235A0 /* Headers */,
+				2AA3FF0883A18CDC750E14974E9696ED /* Sources */,
+				5F88B0D8E134E1256BB606D79F444A9D /* Frameworks */,
+				44462CAD0AAF2D7C59F8428F13D91F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCCrashHandle;
+			productName = LCCrashHandle;
+			productReference = 13B5A9D863058ECC8AD080917BC21E58 /* LCCrashHandle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77F73492BD48EBE44EEEF5903CE69B72 /* Pods-LCCrashHandle_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242C3EA0079A052A5725C1381ABECB52 /* Build configuration list for PBXNativeTarget "Pods-LCCrashHandle_Tests" */;
+			buildPhases = (
+				63D4329EA95D2A713E27AEC02EE64D18 /* Headers */,
+				EB88B856756322899A25297B6701A38B /* Sources */,
+				088C5D2102E65F2B97B66B3B3E5A6A34 /* Frameworks */,
+				BF9A81C171F4EC241BB4B73B164314D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B99C08204F8055C8063A37BABD1A9C10 /* PBXTargetDependency */,
+			);
+			name = "Pods-LCCrashHandle_Tests";
+			productName = "Pods-LCCrashHandle_Tests";
+			productReference = 87DFA352FBE99074CD090E0C78DF2AFD /* Pods_LCCrashHandle_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4E590B612875FF915CE7051088271CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F42EB290587436A6F99EEDCF49A9E1E /* LCCrashHandle */,
+				450C43BF7ABD2DC1D43470C592A03932 /* Pods-LCCrashHandle_Example */,
+				77F73492BD48EBE44EEEF5903CE69B72 /* Pods-LCCrashHandle_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44462CAD0AAF2D7C59F8428F13D91F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9A81C171F4EC241BB4B73B164314D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33093638D562105259A02B43B8F27B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AA3FF0883A18CDC750E14974E9696ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892994B620D1BE86CE32F4C884E8C64A /* LCCrashHandle-dummy.m in Sources */,
+				B51B94229165977686CD1E0552970B38 /* LCCrashHandleLog.m in Sources */,
+				83A1115D87A3001EC7BE695ED5E3E80F /* LCCrashHandleManager.m in Sources */,
+				A1F3E68AB788B378A345FBA68232167E /* NSArray+LCCrashHandle.m in Sources */,
+				1A24872F2604D28ABE27945CB120D0E7 /* NSAttributedString+LCCrashHandle.m in Sources */,
+				A39E2664A1136D9FC5EE241E12C2E275 /* NSDictionary+LCCrashHandle.m in Sources */,
+				01E36A2AB63E7F24F85C9623C1BD8510 /* NSMutableArray+LCCrashHandle.m in Sources */,
+				D6D4390292A7BD083888EEB02FD29F3A /* NSMutableAttributedString+LCCrashHandle.m in Sources */,
+				6091F459E56F6540A868F29754730043 /* NSMutableDictionary+LCCrashHandle.m in Sources */,
+				0740F0F66F05D1E39976FFED44EAB670 /* NSMutableString+LCCrashHandle.m in Sources */,
+				09D9E5ABD90A6FF8C6F913C7DA6E3025 /* NSObject+LCSelectorCrashHandle.m in Sources */,
+				03F44447B57506815128825F4322A4BD /* NSObject+LCSwizzle.m in Sources */,
+				E78E011F19E1CB80566D59D421F2CB7D /* NSString+LCCrashHandle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3820BBCB5187007FBDFBFC9B7C57A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674E92F435B4C6FC24D39427D5FED094 /* Pods-LCCrashHandle_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB88B856756322899A25297B6701A38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6840ECF69D8CF5DF176CC1D2A338E7EF /* Pods-LCCrashHandle_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F336EF6E370211AC00BB079ECE90634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LCCrashHandle;
+			target = 5F42EB290587436A6F99EEDCF49A9E1E /* LCCrashHandle */;
+			targetProxy = 9E969BC12F381F1FF00C3FE979D00871 /* PBXContainerItemProxy */;
+		};
+		B99C08204F8055C8063A37BABD1A9C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LCCrashHandle_Example";
+			target = 450C43BF7ABD2DC1D43470C592A03932 /* Pods-LCCrashHandle_Example */;
+			targetProxy = 1CC9B0A9C58D9A429CD9531FAEF96800 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		016DCF9629E7C9A2E17AE1A35D5A2898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E09D25D872DC8B85B25776334F18E26 /* Pods-LCCrashHandle_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCCrashHandle_Tests/Pods-LCCrashHandle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCCrashHandle_Tests/Pods-LCCrashHandle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15CB5212435F127C3BFC45E94FEF69D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0534A3A043983BFFA38379AF1F8C7A90 /* LCCrashHandle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCCrashHandle/LCCrashHandle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCCrashHandle/LCCrashHandle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCCrashHandle/LCCrashHandle.modulemap";
+				PRODUCT_MODULE_NAME = LCCrashHandle;
+				PRODUCT_NAME = LCCrashHandle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4593BE9CF8602BFFA231977FECF39FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0534A3A043983BFFA38379AF1F8C7A90 /* LCCrashHandle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCCrashHandle/LCCrashHandle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCCrashHandle/LCCrashHandle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCCrashHandle/LCCrashHandle.modulemap";
+				PRODUCT_MODULE_NAME = LCCrashHandle;
+				PRODUCT_NAME = LCCrashHandle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46CBEDFF2F4F9AC560A721E0576C7515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773EB37C98E1C41EDE7DD64396C922AC /* Pods-LCCrashHandle_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCCrashHandle_Tests/Pods-LCCrashHandle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCCrashHandle_Tests/Pods-LCCrashHandle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		71456854F86B1DBC9C0B70CC216E3224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40C8EFB7145633B2829E1E916852AFA /* Pods-LCCrashHandle_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCCrashHandle_Example/Pods-LCCrashHandle_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCCrashHandle_Example/Pods-LCCrashHandle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DD312356FAF9F52FDE5C87DACE40D9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DB5EDC98C8EB717B2FF9EDD1DF84A7 /* Pods-LCCrashHandle_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCCrashHandle_Example/Pods-LCCrashHandle_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCCrashHandle_Example/Pods-LCCrashHandle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0346F32204C5EAC14C803C4E856216EE /* Build configuration list for PBXNativeTarget "Pods-LCCrashHandle_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD312356FAF9F52FDE5C87DACE40D9CD /* Debug */,
+				71456854F86B1DBC9C0B70CC216E3224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242C3EA0079A052A5725C1381ABECB52 /* Build configuration list for PBXNativeTarget "Pods-LCCrashHandle_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016DCF9629E7C9A2E17AE1A35D5A2898 /* Debug */,
+				46CBEDFF2F4F9AC560A721E0576C7515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05C3A35C485E6DC2B29AB1158ADF4E6 /* Build configuration list for PBXNativeTarget "LCCrashHandle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4593BE9CF8602BFFA231977FECF39FE2 /* Debug */,
+				15CB5212435F127C3BFC45E94FEF69D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

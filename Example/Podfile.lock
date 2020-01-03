@@ -1,0 +1,16 @@
+PODS:
+  - LCCrashHandle (0.1.0)
+
+DEPENDENCIES:
+  - LCCrashHandle (from `../`)
+
+EXTERNAL SOURCES:
+  LCCrashHandle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LCCrashHandle: 09660131af2b6e1111d4ecd4c186d6b09288acdd
+
+PODFILE CHECKSUM: b2f69f8de01a52a605dc702808d711d17a73806f
+
+COCOAPODS: 1.8.4

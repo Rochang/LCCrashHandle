@@ -10,4 +10,6 @@
 
 @interface LCViewController : UIViewController
 
++ (void)testClassMethod;
+
 @end

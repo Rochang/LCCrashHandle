@@ -1,0 +1,22 @@
+{
+  "name": "LCCrashHandle",
+  "version": "0.1.0",
+  "summary": "A short description of LCCrashHandle.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Rochang/LCCrashHandle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rochang": "625304864@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Rochang/LCCrashHandle.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LCCrashHandle/Classes/**/*"
+}
