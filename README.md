@@ -22,7 +22,7 @@ pod 'LCCrashHandle'
 
 ## Author
 
-Rochang, 625304864@qq.com
+liangrc
 
 ## License
 
